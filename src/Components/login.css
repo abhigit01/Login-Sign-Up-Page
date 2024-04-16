@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --primarycolor: red;
+}
+
+body {
+    background-color: #1E1E1E;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-login {
+    height: 625px;
+    width: 300px;
+    background-color: #ffff;
+    border-radius: 4px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#headlogo {
+    display: flex;
+    gap: 8px;
+}
+
+#headpara {
+    color: #059669;
+    font-size: 16px;
+    font-weight: 800;
+    /* line-height: -20px; */
+}
+
+#title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #191D23;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+#subtitle {
+    font-size: 14px;
+    color: #64748B;
+}
+
+.label {
+    columns: #191D23;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.input {
+    color: #191D23;
+    padding: 8px 12px;
+    width: 100%;
+    border: 1.5px solid #64748B;
+    border-radius: 4px;
+
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 4px;
+    /* background-color: red; */
+}
+.mainpassword{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+} 
+
+.forlabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#fp {
+    cursor: pointer;
+    font-size: 12px;
+    color: #047857;
+    font-weight: 700;
+}
+
+#inputbox {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#plc::placeholder {
+    color: #191D23;
+}
+
+#checkbox {
+    height: 19px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+.checkboxclass{
+    width: 100%;
+    height: 16px;
+    display: flex;
+    /* gap: 1px; */
+    /* background-color: red; */
+}
+#chck{
+    height: 19px;
+    width: 19px;
+    /* background-color: #047857; */
+    accent-color: #047857;
+}
+
+#keepsign {
+    /* background-color: red; */
+    width: 100%;
+    color: #191D23;
+}
+#CTA
+{
+    /* height: 44px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    height: 44px;
+    padding: 6px 12px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: #047857;
+    color: #ffffff;
+}
+.para
+{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: #0B5768;
+    font-size: 14;
+    height: 32px;
+    width: 100%;
+}
+#bottomlogo
+{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+
+}
+.company
+{
+    display: flex;
+    justify-content: center;
+    columns: #191D23;
+    font-size: 12px;
+    gap: 6px;
+    border-radius: 4px;
+    border: 1px solid var(--neutral-200, #D0D5DD);
+    opacity: 0.8;
+    padding: 8px;
+}
+.logo
+{
+    display: flex;
+    justify-self: center;
+}
+#bottom
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+#para span
+{
+    cursor: pointer;
+    color: #047857;
+}
