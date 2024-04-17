@@ -30,6 +30,15 @@ export default function LoginPage() {
         if(password ==""){
             setMessage1("password is required")
         }
+        else if(password.length <=7){
+            setMessage1("Enter Correct Password")
+
+        }
+        else{
+            setMessage1("")
+        }
+
+        
     }
     const onbtnclick =()=>{
         emailValidation();
