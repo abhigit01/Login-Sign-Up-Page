@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import LoginPage from './Components/LoginPage';
 import SignUp from './Components/SignUp';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import LoginDone from './Components/LoginDone';
 function App() {
   return (
     <>
@@ -11,6 +11,7 @@ function App() {
           <Routes >
               <Route path='/' element={<LoginPage/>} ></Route>
               <Route path='/signup' element={<SignUp/>} ></Route>
+              <Route path='/logindone' element={<LoginDone/>} ></Route>
           </Routes>
       </BrowserRouter>
     </>
