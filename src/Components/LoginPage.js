@@ -11,7 +11,7 @@ export default function LoginPage() {
         if (regEx.test(email)) {
             setMessage("");
         }
-        else if (email == "") {
+        else if (email =="") {
             alert("please enter a valid email")
             setMessage("Email is required ");
         }
