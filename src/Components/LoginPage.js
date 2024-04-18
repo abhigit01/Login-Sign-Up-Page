@@ -12,15 +12,12 @@ export default function LoginPage() {
             setMessage("");
         }
         else if (email == "") {
+            alert("please enter a valid email")
             setMessage("Email is required ");
         }
         else if (!regEx.test(email)) {
             setMessage("Email is not Valid");
         }
-        else if (email == "") {
-            setMessage("Email is required ");
-        }
-
         else {
             setMessage("");
         }
@@ -28,6 +25,7 @@ export default function LoginPage() {
     const passwordValidation =() =>{
         const pass = password;
         if(password ==""){
+            alert("Please Enter a Valid Password")
             setMessage1("password is required")
         }
         else if(password.length <=7){
@@ -37,8 +35,6 @@ export default function LoginPage() {
         else{
             setMessage1("")
         }
-
-        
     }
     const onbtnclick =()=>{
         emailValidation();
